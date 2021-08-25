@@ -1,0 +1,36 @@
+/* Para usar tags */
+body {
+
+    background-color: lightgreen;
+}
+
+h1 {
+
+
+    color: rgb(190, 37, 88);
+}
+
+/* Para usar classes */
+
+
+.titulo-principal {
+    color: rgb(28, 88, 177);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+
+    /* Para Usar IDs, pouco utilizado */
+
+}
+#titulo {
+    color: rgb(132, 0, 255);
+    font-size: 60px;
+
+
+}
+
+/* Usando um seletor de todos os elementos  */
+.card a {
+
+    font-size: xx-large;
+    color: seagreen;
+}
