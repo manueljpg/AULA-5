@@ -1,0 +1,1 @@
+function podeSubir(altura, acompanhado)
