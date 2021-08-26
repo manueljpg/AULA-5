@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+.media-picture {
+    background-image: url('https://pipocasclub.com.br/wp-content/uploads/2020/12/euphoriapipocas-scaled.jpeg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+} 
+body {
+    background-color: rgb(200, 155, 219);
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif; ;
+    color:gainsboro
+}
+
+.review-score {
+    color: gainsboro;
+    background-color: rgb(53, 91, 175);
+    padding: 12px;
+}
+h2 {
+    color: rgb(9, 40, 65)
+}
+p {
+    color:rgb(29, 14, 14)
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    color: rgb(79, 84, 155)
+}
