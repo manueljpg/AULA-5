@@ -1,0 +1,23 @@
+* {text-align: center;}
+
+div {background-image: url('https://www.cathopic.com/images/1080p/ff4309014cfa71cbb425668b21d1694b.jpg');
+height: 720px;
+width: 1280;
+border-radius: 50px;
+border: #da5433 solid 10px;}
+div h1 { 
+    color: #FEC260;
+}
+div h2 {
+    color: blanchedalmond;
+}
+
+a button {background-color: #4CAF50; 
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

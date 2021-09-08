@@ -1,0 +1,42 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    height: 4000px;
+    width: 2000px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.boxie {
+    width:200px;
+    height: 200px;
+    background-color: crimson;
+    position: relative;
+    left: calc(50% - 200px/2);
+    top:calc(50% - 200px/2);
+    
+}
+
+.box-first {
+    background-color: darkseagreen;
+}
+.box-second {
+    background-color: rgb(139, 34, 134);
+    position: absolute;
+    right: 0px;
+    top:0px;
+
+}
+
+.box-third {
+    background-color: hotpink;
+    position: fixed;
+    left: calc(50% - 300px/2);
+    bottom: 0;
+}
