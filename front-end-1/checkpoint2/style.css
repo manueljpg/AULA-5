@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 8vh;
+    z-index: 40;
+    padding: 0 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.nav.list:hover {
+    transform: translateY(-10px);
+}
+
+.carousel-item img {
+    width:100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+.main-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 auto;
+    user-select: none;
+}
+
+.banner-first {
+    width: 100%;
+    height: 30vh;
+    background-image: url(https://images.unsplash.com/photo-1618252064503-ecb856b4ea58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-second {
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://i2.wp.com/i.huffpost.com/gen/1783635/thumbs/o-ANGEL-FALLS-facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0;
+}
+
+.about p {
+    text-align: justify;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.video-youtube:hover {
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+
+.second-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 auto;
+    user-select: none;
+}
+
+.lista {
+    margin: 10px 30px;
+}
+
+.lista li {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* Formulário da Newsletter */
+
+.container-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    background-color: #212121;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: 0;
+}
+
+.first-content {
+    display: flex;
+    position: relative;
+}
+
+.first-column {
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+
+.first-content .first-column {
+    z-index: 10;
+}
+
+.second-column {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.title-primary {
+    color: #fff;
+    user-select: none;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.description-primary {
+    color: #fff;
+    user-select: none;
+}
+
+.description-second {
+    color: #7f8c8d
+}
+
+.social-media {
+    margin: 1rem 0;
+}
+
+.list-social-media {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.link-social-media:not(:first-child) {
+    margin-left: 10px;
+}
+
+.item-social-media {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6
+}
+
+.link-social-media .item-social-media {
+    transition: .5s ease;
+}
+
+.link-social-media:hover .item-social-media {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form input {
+    height: 25px;
+    border: none;
+    background-color: #ecf0f1;
+    outline: none;
+}
+
+.radio, .check {
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    padding: 8px;
+}
+
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    padding: 3px;
+}
+
+.icon-modify {
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+
+.label-dados {
+    color: #7f8c8d;
+    text-transform: capitalize;
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.pontoInteresses, .email, .name, .password {
+    width: 80%;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 50px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin: 1rem 0;
+  flex-direction: row;
+}
+
+.btn-primary {
+    background-color: #212121;
+    border: 1px solid #212121;
+    transition: .7s ease;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #212121;
+}
